@@ -4,19 +4,19 @@
  }
  
 void loop() {
-   // read the X axis:
+   // read first value
    int sensorValue = analogRead(A0);
    // print the results:
    Serial.print(sensorValue);
    Serial.print(",");
  
-   // read the y axis:
+   // read second value
    sensorValue = analogRead(A1);
    // print the results:
    Serial.print(sensorValue);
    Serial.print(",");
  
-   // read the button:
+   // read third value
    sensorValue = analogRead(A2);
    // print the results:
    Serial.println(sensorValue);
